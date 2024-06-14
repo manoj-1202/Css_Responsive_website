@@ -35,6 +35,7 @@ body {
 .logo:hover {
     color: gold;
     transform: scale(1.1);
+    transition-duration: 1s;
 }
 
 .logo img {
@@ -66,6 +67,7 @@ select:hover {
     background-color: black;
     color: white;
     transform: scale(1.1);
+    transition-duration: 1s;
 }
 
 select option {
@@ -91,6 +93,7 @@ ul li a:hover {
     background-color: black;
     transition: .5s;
     padding: 10px;
+    transition-duration: 1s;
 }
 
 ul li .active {
@@ -116,6 +119,7 @@ ul li .active {
 .main h1:hover {
     color: gold;
     cursor: default;
+    transition-duration: 1s;
 }
 
 .buttons {
@@ -140,6 +144,7 @@ ul li .active {
     background-color: black;
     color: white;
     transform: scale(1.2);
+    transition-duration: 1s;
 }
 
 /* TABLET VIEW */
